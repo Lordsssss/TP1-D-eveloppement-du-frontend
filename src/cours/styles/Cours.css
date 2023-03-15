@@ -1,0 +1,43 @@
+.cours-item {
+  margin: 1rem 0;
+}
+.link {
+  text-decoration: none;
+  color: unset;
+}
+.cours-item__content {
+  padding: 0;
+}
+
+.cours-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.cours-item__info h2,
+.cours-item__info h3,
+.cours-item__info p,
+.cours-item__info h4 {
+  margin: 0 0 0.5rem 0;
+}
+.cours-item__texte {
+  text-decoration: none;
+}
+.cours-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.cours-item__modal-content {
+  padding: 0;
+}
+
+.cours-item__modal-actions {
+  text-align: right;
+}
+
+.cours-item__actions button,
+.cours-item__actions a {
+  margin: 0.5rem;
+}

@@ -1,0 +1,62 @@
+.form-container {
+  position: relative;
+  padding: 15px;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: #f8df00;
+  color: #272727;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #04003e;
+  color: white;
+}
+
+.form {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+.titre {
+  font-size: 25px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background: #f8df00;
+  color: #272727;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

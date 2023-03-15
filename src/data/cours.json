@@ -1,0 +1,23 @@
+[
+    {
+        "id":"01a",
+        "titre":"Base de donnée",
+        "discipline":"Informatique",
+        "nbMaxEtudiant":"25",
+        "dateDebut":"2023/01/25",
+        "dateFin":"2023/05/15",
+        "nomProf":"Bob The Builder",
+        "idProf":"a01",
+        "session":"hiver 2023",
+        "etudiantIns":[
+            {
+                "nom":"Hugo",
+                "numAd":"2143450"
+            },
+            {
+                "nom":"Bob",
+                "numAd":"224668"
+            }
+        ]
+    }
+]

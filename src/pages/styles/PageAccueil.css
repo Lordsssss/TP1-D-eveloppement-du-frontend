@@ -1,0 +1,17 @@
+.page_accueil__content {
+  margin: 1rem 0;
+}
+.page_accueil__img {
+  float: left;
+  padding: 10px;
+  width: 1000px;
+}
+.page_accueil__paragraphe {
+  display: flex;
+  background: rgba(1, 0, 21, 0.8);
+  backdrop-filter: saturate(180%) blur(5px);
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
