@@ -3,7 +3,7 @@
         "id":"01a",
         "titre":"Base de donnée",
         "discipline":"Informatique",
-        "nbMaxEtudiant":"25",
+        "nbMaxEtudiant":3,
         "dateDebut":"2023/01/25",
         "dateFin":"2023/05/15",
         "nomProf":"Bob The Builder",

@@ -24,6 +24,10 @@ function Cours({ cours }) {
             {"Nombre d'élève : "}
             {cours.etudiantIns.length}
           </h3>
+          <h3 className="cours-item__texte">
+            {"Nombre max d'élève : "}
+            {cours.nbMaxEtudiant}
+          </h3>
           <h4 className="cours-item__texte">
             {cours.dateDebut}
             {" - "}
